@@ -5,7 +5,7 @@ function ProductItem(props) {
   const data = props.data;
   return (
     <>
-      <div className="card" style={{ width: "27rem", margin: "30px" }}>
+      <div className="card" style={{ width: "22rem", margin: "30px" }}>
         <img
           src={data.image}
           className="card-img-top"
